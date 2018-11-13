@@ -13,6 +13,8 @@
 		874B04F2219B4D1D00EBDE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874B04F1219B4D1D00EBDE7E /* Assets.xcassets */; };
 		874B04F5219B4D1D00EBDE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874B04F3219B4D1D00EBDE7E /* LaunchScreen.storyboard */; };
 		874B04FD219B4D4B00EBDE7E /* SKSpriteNode+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874B04FC219B4D4B00EBDE7E /* SKSpriteNode+Utility.swift */; };
+		87A77A29219B535900B5747C /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A77A28219B535900B5747C /* CustomScene.swift */; };
+		87A77A2B219B576600B5747C /* Crab.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A77A2A219B576600B5747C /* Crab.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		874B04F4219B4D1D00EBDE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		874B04F6219B4D1D00EBDE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		874B04FC219B4D4B00EBDE7E /* SKSpriteNode+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKSpriteNode+Utility.swift"; path = "../../SKSpriteNode+Utility.swift"; sourceTree = "<group>"; };
+		87A77A28219B535900B5747C /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
+		87A77A2A219B576600B5747C /* Crab.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Crab.xcassets; path = ../../Crab.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 			children = (
 				874B04EA219B4D1C00EBDE7E /* AppDelegate.swift */,
 				874B04EC219B4D1C00EBDE7E /* ViewController.swift */,
+				87A77A28219B535900B5747C /* CustomScene.swift */,
 				874B04EE219B4D1C00EBDE7E /* Main.storyboard */,
 				874B04FC219B4D4B00EBDE7E /* SKSpriteNode+Utility.swift */,
 				874B04F1219B4D1D00EBDE7E /* Assets.xcassets */,
+				87A77A2A219B576600B5747C /* Crab.xcassets */,
 				874B04F3219B4D1D00EBDE7E /* LaunchScreen.storyboard */,
 				874B04F6219B4D1D00EBDE7E /* Info.plist */,
 			);
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				874B04F5219B4D1D00EBDE7E /* LaunchScreen.storyboard in Resources */,
+				87A77A2B219B576600B5747C /* Crab.xcassets in Resources */,
 				874B04F2219B4D1D00EBDE7E /* Assets.xcassets in Resources */,
 				874B04F0219B4D1C00EBDE7E /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				874B04FD219B4D4B00EBDE7E /* SKSpriteNode+Utility.swift in Sources */,
+				87A77A29219B535900B5747C /* CustomScene.swift in Sources */,
 				874B04ED219B4D1C00EBDE7E /* ViewController.swift in Sources */,
 				874B04EB219B4D1C00EBDE7E /* AppDelegate.swift in Sources */,
 			);
